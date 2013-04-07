@@ -1,0 +1,342 @@
+#wrapper{
+	border: solid 1px;
+	border-color:white;
+
+	width:800px;
+	height:600px;
+
+	background-image: url("./images/prestige-COD.gif");
+}
+
+#upper{
+	//border: solid 1px;
+	//border-color:white;
+
+	background-image: url("./images/upper_sheet.png");
+
+	margin:40px auto 0px auto;
+	width:740px;
+	height:205px;
+}
+
+#upper img{
+	width:195px;
+	height:195px;
+	margin-top:5px;
+	margin-left:5px;
+	float:left;
+}
+
+#upper #name{
+	//border: solid 1px;
+	//border-color:white;
+
+	margin-left:240px;
+
+	width:480px;
+	height:200px;
+}
+
+div#name .headline{
+	font-size:30px;
+	color:#7d919b;
+
+	margin:0px;
+	font-family:'Bookman Old Style';
+}
+
+div#name hr{
+	width:100%;
+	margin-top:-1px;
+	margin-left:-1px;
+	color:#d3cf76;
+}
+
+div#name p#text{
+	//border: solid 1px;
+	//border-color:white;
+
+	margin-top:-1px;
+	margin-left:-1px;
+	color:white;
+
+	font-size:22px;
+	font-family: 'Modern';
+}
+
+div#upper #name #post_date{
+	//border: solid 1px;
+	//border-color:white;
+
+	width:200px;
+	height:30px;
+
+	margin-left:320px;
+	margin-top:20px;
+}
+
+div#upper #name #post_date{
+	font-style:italic;
+	font-size:15px;
+	color:white;
+}
+
+#lower{
+	//border: solid 1px;
+	//border-color:#7d919b;
+
+	background-image: url("./images/lower_sheet.png");
+
+	margin:15px auto 0px auto;
+	width:740px;
+	height:280px;
+}
+
+#lower div#status{
+	//border: solid 1px;
+	//border-color:white;
+
+	float:left;
+	margin-top:10px;
+	margin-left:5px;
+
+	width:200px;
+	height:250px;
+}
+
+#lower div#status p.status_headline{
+	//color:#727935;
+	color:#d3cf76;
+	font-size:16px;
+
+	margin-top:0px;
+	margin-left:2px;
+}
+
+#lower div#status #status_upper{
+	//border: solid 1px;
+	//border-color:white;
+	margin-left:5px;
+	margin-top:5px;
+
+	width:190px;
+	height:120px;
+}
+
+#lower div#status #status_upper #body{
+	//border: solid 1px;
+	//border-color:white;
+
+	width:180px;
+	height:80px;
+
+	margin-top:-5px;
+	margin-left:10px;
+
+	color:white;
+	font-size:20px;
+}
+
+
+#lower div#status #status_lower{
+	//border: solid 1px;
+	//border-color:white;
+
+	margin-left:5px;
+	margin-top:5px;
+
+	width:190px;
+	height:70px;
+}
+
+#lower div#status #status_lower img{
+	width:50px;
+	height:50px;
+	float:left;
+
+	margin-left:4px;
+}
+
+div#lower .lower_head{
+	//border: solid 1px;
+	//border-color:white;
+
+	font-size:18px;
+	color:white;
+
+	margin:-5px;
+
+	font-family:'Modern';
+}
+
+div#lower hr{
+	width:100%;
+	margin-top:10px;
+	margin-left:-1px;
+	color:#d3cf76;
+}
+
+
+#lower div#post_form{
+	//border: solid 1px;
+	//border-color:white;
+
+	float:left;
+
+	margin-top:10px;
+	margin-left:30px;
+
+	width:480px;
+	height:250px;
+}
+
+#lower #post_form #preview{
+	//border: solid 1px;
+	//border-color:black;
+	background-color:white;
+
+	word-break: break-all;
+	float:left;
+
+	width:270px;
+	height:200px;
+
+	box-shadow: 1px 1px 5px #dbdbdb; /*CSS3*/
+	-moz-box-shadow: 1px 1px 5px #dbdbdb; /* Firefox用*/
+	-webkit-box-shadow: 1px 1px 5px #dbdbdb; /* Google Chrome, Safari用*/
+}
+
+#lower #post_form #preview #preview_header{
+	//border: solid 1px;
+	//border-color:black;
+
+	margin-top:5px;
+	margin-left:5px;
+	width:260px;
+	height:50px;
+}
+
+#lower #post_form #preview #preview_header img{
+	width:50px;
+	height:50px;
+
+	float:left;
+}
+
+#lower #post_form #preview #preview_header p{
+	//border: solid 1px;
+	//border-color:black;
+
+	color:#3b5998;
+	font-weight:bold;
+	font-size:12px;
+}
+
+#lower #post_form #preview #preview_body{
+	//border: solid 1px;
+	//border-color:black;
+	font-size:15px;
+
+	width:205px;
+	height:140px;
+	color:#333333;
+
+	font-family:'メイリオ';
+
+	margin-left:60px;
+	margin-top:-40px;
+}
+
+#lower #post_form #preview #preview_footer{
+	//border: solid 1px;
+	//border-color:black;
+
+	font-size:16px;
+	//font-style:italic;
+	font-family:'Gulim';
+
+	color:#b1b1c6;
+	margin-top:1px;
+	margin-left:5px;
+
+	width:250px;
+	height:20px;
+}
+
+#lower #post_form #form_body{
+	//border: solid 1px;
+	//border-color:white;
+
+	margin-left:8px;
+
+	float:left;
+
+	width:200px;
+	height:220px;
+}
+
+#lower #post_form #form_body textarea{
+	resize:none;
+	background-color:black;
+	color:white;
+}
+
+#lower #post_form #form_body #btn{
+    width:150px;
+    height:25px;
+    background:url('./images/button_on.png') no-repeat;
+    border:none;
+    cursor:pointer;
+    padding-top:100px;
+    overflow:hidden;
+    display: block;
+
+	margin-top:5px;
+	margin-left:50px;
+}
+
+#lower #post_form #form_body #btn:hover{
+    width:150px;
+    height:25px;
+    background:url('./images/button_focus.png') no-repeat;
+    border:none;
+    cursor:pointer;
+    padding-top:100px;
+    overflow:hidden;
+    display: block;
+
+	margin-top:5px;
+	margin-left:50px;
+}
+
+#lower #post_form #form_body #btn:active{
+    width:150px;
+    height:25px;
+    background:url('./images/button_off.png') no-repeat;
+    border:none;
+    cursor:pointer;
+    padding-top:100px;
+    overflow:hidden;
+    display: block;
+
+	margin-top:5px;
+	margin-left:50px;
+}
+
+#lower #post_form #form_body #image:hover {
+	box-shadow: 1px 1px 5px #3f3f3f; /*CSS3*/
+	-moz-box-shadow: 1px 1px 5px #3f3f3f; /* Firefox用*/
+	-webkit-box-shadow: 1px 1px 5px #3f3f3f; /* Google Chrome, Safari用*/
+}
+
+#footer{
+	//border: solid 1px;
+	//border-color:white;
+
+	//background-image: url("./images/lower_sheet.png");
+
+	margin:10px auto 0px auto;
+	width:740px;
+	height:40px;
+}
+
